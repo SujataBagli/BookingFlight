@@ -21,7 +21,6 @@ $airportData = mysqli_query($conn, $airport) or die("SQL Query Failed.");
 while ($row = $airportData->fetch_assoc()) {  
     $airportName[$row["id"]] = $row["name"];    
 }
-
 $output = "";
 if(mysqli_num_rows($flightData) > 0 ){
     $output = '<table>  

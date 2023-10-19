@@ -54,8 +54,7 @@
 </html>
 
 <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
-<script>
-    
+<script>    
     $(document).ready(function() {       
         $('#submit_form').on('submit', function(e) {
             e.preventDefault();
