@@ -43,6 +43,7 @@
                 </div>
             </form>
         </div>
+        
         <div class="display-container" id="displayResult">
             <h1>Flight Search Results</h1>
             <table id="loadTableData">                
