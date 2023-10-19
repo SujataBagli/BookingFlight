@@ -1,0 +1,56 @@
+{
+    "err": 0,
+    "errMsg": "",
+    "flights": [
+        {
+            "airline": "Jet Airways",
+            "Origin": "PNQ",
+            "destination": "DEL",
+            "departureDate": "2023-10-20 07:56:54",
+            "arrivalDate": "2023-10-20 16:56:54",
+            "depart": "07:56 AM",
+            "arrival": "04:56 PM",
+            "price": "6733",
+            "flightNumber": "186",
+            "duration": "2h 33m",
+            "returningFlight": {
+                "id": "3",
+                "originAirportId": "2",
+                "destAirportId": "1",
+                "arlinId": "1",
+                "airline": "Jet Airways",
+                "airlineCode": "9W",
+                "departureDate": "2023-10-23 07:56:54",
+                "arrivalDate": "2023-10-24 03:56:54",
+                "price": "6733",
+                "flightNumber": "556",
+                "duration": "5h 33m"
+            }
+        },
+        {
+            "airline": "Spice Jet",
+            "Origin": "PNQ",
+            "destination": "DEL",
+            "departureDate": "2023-10-20 07:56:54",
+            "arrivalDate": "2023-10-22 16:56:54",
+            "depart": "07:56 AM",
+            "arrival": "04:56 PM",
+            "price": "8713",
+            "flightNumber": "222",
+            "duration": "10h 37m",
+            "returningFlight": {
+                "id": "9",
+                "originAirportId": "2",
+                "destAirportId": "1",
+                "arlinId": "4",
+                "airline": "Spice Jet",
+                "airlineCode": "SG",
+                "departureDate": "2023-10-24 15:56:54",
+                "arrivalDate": "2023-10-25 10:56:54",
+                "price": "6733",
+                "flightNumber": "325",
+                "duration": "2h 33m"
+            }
+        }
+    ]
+}
